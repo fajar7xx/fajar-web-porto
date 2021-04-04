@@ -1,3 +1,14 @@
+/* 
+1. navigation
+2. banner area
+3. about area
+4. brand area 
+5. services area
+6. project area
+7. client area
+*/
+
+
 /* import font from front.css */
 @import url(fonts.css);
 
@@ -39,7 +50,7 @@
 }
 /* ./navigation */
 
-/* banner area */
+/* 2. banner area */
 .site-main .site-banner{
   background: url(../image/banner/home-banner.png) no-repeat 0% 50%;
 }
@@ -69,7 +80,7 @@
 
 /* end banner area */
 
-/* 2. about areas */
+/* 3. about areas */
 .site-main .about-area{
   padding: 8rem 5rem;
 }
@@ -84,7 +95,7 @@
 }
 /* end about area */
 
-/* 3.brand area */
+/* 4.brand area */
 .site-main .brand-area{
   padding: 1rem 20rem;
   margin-bottom: 4rem;
@@ -154,3 +165,82 @@
   padding-left: 10rem;
 }
 /* end brand area */
+
+/* 5. services area */
+.site-main .services-area{
+  padding: 7rem 2rem;
+}
+.site-main .services-area .services-title{
+  padding: 0 14rem;
+}
+.site-main .services-area .services-title h1{
+  font-size: 35px;
+}
+.site-main > .services-area .services{
+  background: rgba(248, 252, 253, 0.9);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 5rem .5rem;
+  transition: box-shadow .7s ease;
+}
+.site-main > .services-area .services:hover{
+  box-shadow: var(--box-shadow);
+}
+/* end service area */
+
+/* 6. project area */
+.site-main .project-area{
+  padding: 4rem 0;
+}
+.site-main .project-area .button-group button{
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+}
+.site-main .project-area .button-group button + button{
+  padding-left: 3rem;
+}
+.site-main .project-area .grid .our-project > .title h4{
+  font: normal 700 25px/12px var(--roboto);
+}
+.site-main .project-area .grid .our-project .img a:hover img{
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+/* end project area */
+
+/* 7.client area */
+.site-main .about-area .about-title p{
+  padding: 1rem 7rem;
+}
+.site-main .about-area .client{
+  background: #ffffff10;
+  box-shadow: var(--box-shadow);
+  margin: 3rem 0rem;
+}
+.site-main .about-area .client .client-img{
+  padding: 2rem;
+}
+.site-main .about-area .client .about-client{
+  padding-top: 2rem;
+} 
+.site-main .about-area .client .about-client h4{
+  font: normal 500 21px/20px var(--roboto);
+}
+.site-main .about-area .client .about-client p{
+  font-size: 14px;
+}
+.site-main .about-area .owl-carousel .owl-item{
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active{
+  background: var(--primary-color);
+  width: 12px;
+  height: 12px;
+}
+/* end client area */
+
+/* subsrice area */
+
+/* end subsrive area */
