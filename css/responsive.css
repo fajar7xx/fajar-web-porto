@@ -1,0 +1,12 @@
+/* if the viewport is equal to 340px or less than that */
+@media only screen and(max-width: 340px){
+  .header-area .main-menu .navbar, 
+  .header-area .main-menu .navbar .navbar-brand,
+  .site-main .subscribe-area .subscribe .subscribe-title,
+  .site-main .subscribe-area .subscribe .subscribe-title p, h4,
+  .site-main .service-area,
+  .site-main .subscribe-area .subscribe{
+    padding: 2%;
+    margin: 0%;
+  }
+}

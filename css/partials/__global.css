@@ -70,3 +70,14 @@ button:hover,
 .title-h1{
   font: normal bold 39px/40px var(--roboto);
 }
+
+.navbar-fixed{
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  left: 0; right: 0;
+  background: #fff;
+  box-shadow: var(--box-shadow);
+  z-index: 999;
+  transition: background 1s ease;
+}

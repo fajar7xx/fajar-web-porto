@@ -18,6 +18,8 @@
 
   <!-- custom css file -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- responsive css -->
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
   
@@ -498,10 +500,10 @@
           </div>
         </div>
         <div class="d-sm-flex justify-content-center">
-          <div class="w-50">
+          <form class="w-50">
             <div class="row d-flex-row flex-wrap">
-              <div class="col input-textboxt">
-                <input type="text" name="email" id="email" placeholder="email">
+              <div class="col input-textbox">
+                <input type="text" name="email" id="email" class="form-control" placeholder="email">
               </div>
               <div class="col">
                 <div class="btn-submit">
@@ -509,7 +511,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
@@ -517,6 +519,31 @@
 
   </main>
   <!-- ./main area -->
+
+  <footer class="footer-area">
+    <div class="container">
+      <div class="">
+        <div class="site-logo text-center py-4">
+          <a href="#">
+            <img src="image/logo.png" alt="logo">
+          </a>
+        </div>
+        <div class="social text-center">
+          <h5 class="text-uppercase">follow me</h5>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-instagram-square"></i></a>
+          <a href=""><i class="fab fa-youtube"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="copyrights text-center">
+          <p class="para">
+            Copyrights @2021 All rights reserved | this template was made by
+            <a href="www.fajarsiagian.com"><span style="color: var(--primary-color);">Fajar Siagian</span></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <!-- jquery -->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>

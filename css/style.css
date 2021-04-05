@@ -6,6 +6,8 @@
 5. services area
 6. project area
 7. client area
+8. subscribe area
+9. footer area
 */
 
 
@@ -241,6 +243,52 @@
 }
 /* end client area */
 
-/* subsrice area */
-
+/* 8. subsrice area */
+.site-main .subscribe-area .subscribe{
+  background: url(../image/subscribe-bg.png) no-repeat;
+  padding: 10rem 0;
+  margin: 3rem auto;
+}
+.site-main .subscribe-area .subscribe .subscribe-title h4{
+  font: normal 100 30px/30px var(--roboto);
+  color: whitesmoke;
+}
+.site-main .subscribe-area .subscribe .subscribe-title p{
+  color: whitesmoke;
+  padding: 1rem 4rem;
+}
+.site-main .subscribe-area .subscribe form .input-textbox input{
+  width: 400px;
+  padding: 1.5rem 1rem;
+  border: 1px solid whitesmoke;
+  background: transparent;
+  color: black;
+  font: normal 500 17px/20px va(--roboto);
+}
+.site-main .subscribe-area .subscribe form .input-textbox input::placeholder{
+  color: whitesmoke;
+}
+.site-main .subscribe-area .subscribe form .btn-submit button{
+  background: whitesmoke;
+  color: #000;
+  padding: .7rem 2rem ;
+}
 /* end subsrive area */
+
+/* 9.footer area */
+footer.footer-area{
+  padding: 5rem 0;
+  background: url(../image/footer-bg.png) no-repeat;
+}
+footer.footer-area .social h5{
+  font: normal 500 23px/30px var(--roboto);
+}
+footer.footer-area .social a > i{
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--border-color);
+}
+footer.footer-area .social a:hover > i{
+  color: var(--primary-color);
+}
+/* end footer area */
